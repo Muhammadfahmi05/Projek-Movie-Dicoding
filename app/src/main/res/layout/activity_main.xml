@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <!--<android.support.v7.widget.RecyclerView-->
+        <!--android:id="@+id/rv_mahasiswa"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent">-->
+    <!--</android.support.v7.widget.RecyclerView>-->
+
+    <!--<ImageView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:src="@mipmap/ic_launcher"-->
+        <!--android:id="@+id/iv_coba_gambar"/>-->
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="16dp"
+        android:tint="#FFFFFF"
+        android:src="@drawable/ic_add_black_24dp"/>
+
+    <ListView
+        android:id="@+id/lv_user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </ListView>
+</android.support.design.widget.CoordinatorLayout>
